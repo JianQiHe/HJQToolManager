@@ -93,8 +93,8 @@ HJQToolManager.这是我制作的cocoapods 依赖 HJQToolManager.这是我制作
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "HJQToolManager", "HJQToolManager/**/*.{h,m}"
+  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -135,6 +135,6 @@ HJQToolManager.这是我制作的cocoapods 依赖 HJQToolManager.这是我制作
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "JSONKit", "~> 1.4"
+  s.dependency 'JSONModel', '~> 1.7.0'
 
 end
