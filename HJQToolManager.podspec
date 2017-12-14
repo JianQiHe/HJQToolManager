@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HJQToolManager"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "HJQToolManager.这是我制作的cocoapods 依赖库"
 
   # This description is used to generate tags and improve search results.
